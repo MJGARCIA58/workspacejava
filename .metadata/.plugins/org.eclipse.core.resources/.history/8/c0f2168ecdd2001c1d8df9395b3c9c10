@@ -1,0 +1,49 @@
+
+public class ActividadEstudiantes {
+
+	// Atributos;
+
+	private int id;
+	private int edad;
+	private int telefono;
+	private int numeroDeNotas;
+	private double sumaDeNotas;
+	private double notaMedia;
+
+	// constructor parametrizado
+	public ActividadEstudiantes(int id, int edad, int telefono, int numeroDeNotas, double sumaDeNotas,
+			double notaMedia) {
+		this.id = id;
+		this.edad = edad;
+		this.telefono = telefono;
+		this.numeroDeNotas = numeroDeNotas;
+		this.sumaDeNotas = sumaDeNotas;
+		this.notaMedia = notaMedia;
+	}
+
+	// cliqueo en el boton derecho, source y le damos generateusing fields, y te
+	// crea solo el constructor
+	// el color marron son las variables y el color azul son los atributos
+
+	public ActividadEstudiantes(int id, int edad) {
+		
+		this.id = id;
+		this.edad = edad;
+	}
+
+	public ActividadEstudiantes(int id, int edad, int telefono) {
+		
+		this.id = id;
+		this.edad = edad;
+		this.telefono = telefono;
+	}
+
+	// Métodos
+	
+	public void mostrarInfo() {}
+
+	public void agregarNuevaNota() {}
+	
+	// m�todos getters and setters (son siempre p�blicos)
+
+}

@@ -1,0 +1,21 @@
+package curso;
+
+public class Estudiante {
+	private float numeroDeNotas;
+	private int sumaDeNotas;
+	private float notaMedia;
+	
+	
+	
+public void agregarNuevaNota(){
+
+}
+public void monstrarInfo() {
+	
+}
+
+public void crearEstudiante() {
+	
+}
+
+}

@@ -1,0 +1,20 @@
+
+
+public class ActividadEstudiantes {
+
+	public static void main(String[] args) {
+		
+		// crear varios objetos de la clase Coche
+		Coche audi = new Coche();
+		Coche nissan = new Coche();
+		
+		System.out.println(audi.asientos);
+		
+//		int asientos;
+//		System.out.println(asientos);
+
+		
+
+	}
+
+}

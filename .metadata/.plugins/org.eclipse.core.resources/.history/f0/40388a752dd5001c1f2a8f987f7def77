@@ -1,0 +1,64 @@
+package curso;
+
+public class Estudiante {
+	
+	//Atributos
+	protected float numeroDeNotas;
+	protected int sumaDeNotas;
+	protected float notaMedia;
+
+	public Estudiante(float numeroDeNotas, int sumaDeNotas, float notaMedia) {
+		super();
+		this.numeroDeNotas = numeroDeNotas;
+		this.sumaDeNotas = sumaDeNotas;
+		this.notaMedia = notaMedia;
+	}
+	
+		public void agregarNuevaNota2() {
+			System.out.println("Método agregarNuevaNota de Estudiantes");
+		}
+		public void mostrarInfo() {
+			
+		}
+		public void crearEstudiante() {	
+		
+	}
+
+	public float getNumeroDeNotas() {
+		return numeroDeNotas;
+	}
+
+	public void setNumeroDeNotas(float numeroDeNotas) {
+		this.numeroDeNotas = numeroDeNotas;
+	}
+
+	public int getSumaDeNotas() {
+		return sumaDeNotas;
+	}
+
+	public void setSumaDeNotas(int sumaDeNotas) {
+		this.sumaDeNotas = sumaDeNotas;
+	}
+
+	public float getNotaMedia() {
+		return notaMedia;
+	}
+
+	public void setNotaMedia(float notaMedia) {
+		this.notaMedia = notaMedia;
+	}
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+}

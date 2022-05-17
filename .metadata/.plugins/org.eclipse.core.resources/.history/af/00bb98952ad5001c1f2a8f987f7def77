@@ -1,0 +1,9 @@
+package curso;
+
+public class Persona {
+	private int id;
+	private int edad;
+	private float telefono;
+}
+
+public void mostrarInfo{};

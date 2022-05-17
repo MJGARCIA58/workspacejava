@@ -1,0 +1,20 @@
+
+
+public class ActividadEstudiantes {
+
+	//Atributos;
+	
+	int id;
+	int edad;
+	int telefono;
+	int numeroDeNota;
+	double sumaDeNotas;
+	double notaMedia;
+	
+	
+	//Métodos
+	void mostrarInfo(){}
+	void agregarNuevaNota() {}
+	}
+
+	

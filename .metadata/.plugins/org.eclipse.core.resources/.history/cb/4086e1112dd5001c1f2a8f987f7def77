@@ -1,0 +1,40 @@
+package curso;
+
+public class Estudiante {
+	private float numeroDeNotas;
+	private int sumaDeNotas;
+	private float notaMedia;
+
+	public Estudiante(float numeroDeNotas, int sumaDeNotas, float notaMedia) {
+		super();
+		this.numeroDeNotas = numeroDeNotas;
+		this.sumaDeNotas = sumaDeNotas;
+		this.notaMedia = notaMedia;
+	
+	
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+	}
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+}

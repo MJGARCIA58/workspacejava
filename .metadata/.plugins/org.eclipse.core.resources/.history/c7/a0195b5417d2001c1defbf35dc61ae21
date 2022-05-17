@@ -1,0 +1,36 @@
+
+public class Ejercicio10Esprimo {
+
+	
+	public static boolean esPrimo() {
+		return false;
+		
+	}
+	public static void main(String[] args) {
+		/*
+		 * Crear un m�todo que se llama esPrimo. Reciba un n�mero entero (int) y devuelva un 
+		 * booleano. Si el n�mero es primo entonces tiene que devolver true y si no, false
+		 */
+		
+		int numero = 0;
+		
+		for(int i=numero-1; i >= 2; i--) {
+			System.out.println(numero + "%" + i + " = " + numero%i);
+			if(numero % i == 0) {
+				System.out.println("No es primo");
+				break;
+			}
+		}
+		
+		boolean numero1 = Ejercicio10Esprimo.esPrimo();
+		System.out.println(numero1);
+				
+		
+		
+		
+		
+		
+		
+	}
+
+}

@@ -1,0 +1,16 @@
+
+public class Main {
+
+	public static void main(String[] args) {
+		System.out.println("Hola mundo");
+		//math application 
+		System.out.println(5 + 2);
+		System.out.println(5 - 2);
+		System.out.println(5 * 2);
+		System.out.println(5 / 2);
+		System.out.println(5.0 / 2); // para dividir con decimales
+		System.out.println(5 % 2);
+		System.out.println(Math.pow(5,2)); //Para poner exponencia
+	}
+	
+} 

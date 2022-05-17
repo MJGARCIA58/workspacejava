@@ -1,0 +1,4 @@
+
+public class Bicicleta {
+	private int cambios;
+}

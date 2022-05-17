@@ -1,0 +1,48 @@
+import java.util.Iterator;
+
+public class Main2a {
+
+	public static void main(String[] args) {
+
+		// Bucle while
+
+		int edad = 17;
+		while (edad < 18) {
+			System.out.println("Estoy dentro del while");
+
+			// edad = edad +1
+			edad++;
+
+//			break; parar un bucle 
+		}
+
+		/*
+		 * Bucle do-while
+		 */
+
+		int edad2 = 18;
+		do {
+			System.out.println(edad);
+			edad++;
+		} while (edad < 19);
+		
+		
+		// bucle for
+		
+//		for (Iterator iterator = collection.iterator(); iterator.hasNext();) {
+//			type type = (type) iterator.next();
+		
+//		for (int i = 0; i < 15; i++) {
+//			System.out.println(i);
+//		}
+		
+		for (int i = 0; i < 100; i--) {
+			System.out.println(i);
+			
+		}
+			
+		}
+
+	}
+
+
