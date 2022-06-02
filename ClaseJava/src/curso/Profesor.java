@@ -1,6 +1,6 @@
 package curso;
 
-public class Profesor {
+public class Profesor extends Persona {
 	//Atributos
 		protected int numeroDeEdadesEstudiantes;
 		protected double sumaDeEdadesEstudiantes;
@@ -10,7 +10,7 @@ public class Profesor {
 		public Profesor(int id, int edad, int telefono, int numeroDeEdadesEstudiantes, 
 				double sumaDeEdadesEstudiantes, double estudiantesEdadMedia) {
 			
-			super();
+			super(numeroDeEdadesEstudiantes, numeroDeEdadesEstudiantes, numeroDeEdadesEstudiantes);
 			this.numeroDeEdadesEstudiantes = numeroDeEdadesEstudiantes;
 			this.sumaDeEdadesEstudiantes = sumaDeEdadesEstudiantes;
 			this.estudiantesEdadMedia = estudiantesEdadMedia;
@@ -49,6 +49,14 @@ public class Profesor {
 
 		public void setEstudiantesEdadMedia(double estudiantesEdadMedia) {
 			this.estudiantesEdadMedia = estudiantesEdadMedia;
+		}
+		
+		
+		// metodo que esta sobre escrito arriba
+		@Override
+		public void mostrarID() {
+			System.out.println(this.id);
+			
 		}
 			
 		

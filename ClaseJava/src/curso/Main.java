@@ -43,9 +43,16 @@ public class Main {
 			estudiantes.add(new Estudiante(i, 55, 55555, 0, 0.0, Math.random()*10));
 		}
 		
-		System.out.println(estudiantes.size());
-		for(int i=0; i<estudiantes.size(); i++) {
-			System.out.println("id:%d");
+//		System.out.println(estudiantes.size());
+//		for(int i=0; i<estudiantes.size(); i++) {
+//			System.out.printf("id: " + estudiantes.get(i).getId() + " Nota media: " + 
+//		estudiantes.get(i).getNotaMedia()).println();
+//		}
+		
+		// recorrer todos los estudiantes, pero no se utiliza la variable i
+		for (Estudiante estudiante : estudiantes) {
+			System.out.println("id: " + estudiante.getId() + " Nota media: " + estudiante.getNotaMedia());
+				
 		}
 				
 		

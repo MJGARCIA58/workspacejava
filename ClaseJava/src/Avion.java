@@ -1,17 +1,18 @@
+
 // Avion hereda de Vehiculo
 public class Avion extends Vehiculo {
 
 	// atributos
 	private boolean trenAterrizaje;
 	
-	// mï¿½todos
+	// métodos
 	public void volar() {}
 	public void aterrizar() {}
 
 	// constructor de la clase Avion
 	public Avion(float velocidad, int asientos, int orientacionRuedas, boolean trenAterrizaje) {
 		
-		// invocaciï¿½n al constructor de la superclase (Vehiculo)
+		// invocación al constructor de la superclase (Vehiculo)
 		super(velocidad, asientos, orientacionRuedas);
 		
 		System.out.println("Constructor de la clase Avion");		
@@ -19,18 +20,23 @@ public class Avion extends Vehiculo {
 	}
 	
 	public void acelerar() {
-		System.out.println("MÃ©todo de acelerar Avion");
+		System.out.println("Método acelerar de Avion");		
 	}
 	
-	// mï¿½todo get para trenAterrizaje
+	// método get para trenAterrizaje
 	public boolean isTrenAterrizaje() {
 		return trenAterrizaje;
 	}
-	// mï¿½todo set para trenAterrizaje
+	// método set para trenAterrizaje
 	public void setTrenAterrizaje(boolean trenAterrizaje) {
 		this.trenAterrizaje = trenAterrizaje;
 	}
 	
+	// se está sobrescribiendo el método abstracto parar de la clase Vehiculo
+	@Override
+	public void parar() {
+		System.out.println("Método parar de Avion");		
+	}
+	
 	
 }
-

@@ -1,13 +1,13 @@
 
 public class Coche {
 
-	// atributos no estï¿½ticos
+	// atributos no estáticos
 	private float velocidad;
 	private float caballos;
 	private int asientos;
 	private int orientacionRuedas;
 	
-	// atributos estï¿½ticos
+	// atributos estáticos
 	public static final float factorConversionCvKw = 1.35f;
 	
 	// constructor por defecto
@@ -23,7 +23,7 @@ public class Coche {
 	}
 	
 	/*
-	 * mï¿½todos estï¿½ticos
+	 * métodos estáticos
 	 */
 	
 	// convierte los caballos (cv) a kilowatios (kw)
@@ -39,7 +39,7 @@ public class Coche {
 	}	
 	
 	/*
-	 * mï¿½todos no estï¿½ticos
+	 * métodos no estáticos
 	 */
 	public void acelerar() {
 //		this.velocidad = this.velocidad + 5;
@@ -72,7 +72,7 @@ public class Coche {
 	public void girarIzquierda() {}
 	public void girarDerecha() {}	
 	
-	// mï¿½todos getters and setters (son siempre pï¿½blicos)
+	// métodos getters and setters (son siempre públicos)
 	public int getAsientos() {
 		return this.asientos;
 	}

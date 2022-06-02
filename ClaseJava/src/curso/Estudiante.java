@@ -68,6 +68,12 @@ public class Estudiante extends Persona {
 	public void setNotaMedia(double notaMedia) {
 		this.notaMedia = notaMedia;
 	}
+
+	@Override
+	public void mostrarID() {
+		// TODO Auto-generated method stub
+		
+	}
 	
 }
 

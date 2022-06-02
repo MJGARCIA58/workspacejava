@@ -16,20 +16,20 @@ public class Main3 {
 //		audi.acelerar(20);
 //		System.out.println(audi.getVelocidad());
 		
-		Avion avion1 = new Avion(0.0f, 50, 0, true);
-		avion1.acelerar();
+//		Avion avion1 = new Avion(0.0f, 50, 0, true);
+//		avion1.acelerar();
+//		System.out.println(avion1.getOrientacionRuedas());
+//		System.out.println(avion1.isTrenAterrizaje());
 		
-		System.out.println(avion1.getOrientacionRuedas());
-		System.out.println(avion1.isTrenAterrizaje());
+		Bicicleta bici1 = new Bicicleta(20.0f, 1, 5, 21);
+		bici1.parar();
 		
-		Bicicleta bicicleta1 = new Bicicleta(20.0f, 1, 5, 50);
-		System.out.println(bicicleta1.getCambios());
-		bicicleta1.parar();
-		
-		
-		
+		// no se puede crear un objeto de una clase abstracta
+//		Vehiculo vehiculo = new Vehiculo();
 		
 		
+//		System.out.println(bici1.getOrientacionRuedas());
+//		System.out.println(bici1.getCambios());
 		
 		
 //		audi.convertirCvKw(6); // warning
@@ -48,7 +48,7 @@ public class Main3 {
 		
 
 		// crear varios objetos de la clase Estudiante
-//		ActividadEstudiantes estudiante1 = new ActividadEstudiantes(1, 25, 666666455, 0, 0.0, 0.0);
+//		Estudiante estudiante1 = new Estudiante(1, 25, 666666455, 0, 0.0, 0.0);
 //		System.out.println(estudiante1.getNotaMedia());
 //		
 //		estudiante1.agregarNuevaNota(5.0);

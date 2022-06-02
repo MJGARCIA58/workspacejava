@@ -1,5 +1,4 @@
 
-
 public class Bicicleta extends Vehiculo {
 
 	// atributo de la bicicleta
@@ -8,16 +7,13 @@ public class Bicicleta extends Vehiculo {
 	// constructor
 	public Bicicleta(float velocidad, int asientos, int orientacionRuedas, int cambios) {
 		super(velocidad, asientos, orientacionRuedas);
-		System.out.println("Constructor de la clase Bicicleta");
 		this.cambios = cambios;
 	}
 	
-	
 	public void parar() {
-		System.out.println("Método de parar Bicicleta");
+		System.out.println("Método parar de Bicicleta");
 	}
-	
-	
+
 	public int getCambios() {
 		return cambios;
 	}
@@ -25,7 +21,4 @@ public class Bicicleta extends Vehiculo {
 	public void setCambios(int cambios) {
 		this.cambios = cambios;
 	}
-
-
-	
 }
